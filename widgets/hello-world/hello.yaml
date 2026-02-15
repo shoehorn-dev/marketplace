@@ -1,0 +1,28 @@
+schemaVersion: 1
+kind: widget
+metadata:
+  slug: hello-world-widget
+  name: Hello World Widget
+  version: 1.0.0
+  description: A simple widget that displays a greeting message
+  author:
+    name: Your Name
+    email: you@example.com
+    url: https://github.com/yourusername
+  category: overview
+  tier: free
+  tags:
+    - example
+    - test
+    - hello-world
+  repository: https://github.com/yourusername/hello-world-widget
+  icon: 🌍
+
+widget:
+  type: iframe
+  url: https://example.com/widget.html
+  width: 400
+  height: 300
+  permissions:
+    - clipboard-read
+    - clipboard-write
