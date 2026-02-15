@@ -7,19 +7,15 @@ metadata:
   description: A simple widget that displays a greeting message
   author:
     name: Your Name
-    email: you@example.com
   category: overview
   tier: free
-  tags:
-    - example
-    - test
-    - hello-world
-  icon: "🌍"
+  tags: [example, test]
+  icon: ""
 display:
   component: iframe
+  url: "https://example.com/widget.html"
   size:
     default: { w: 4, h: 3 }
     min: { w: 2, h: 2 }
 dataSource:
   type: static
-  endpoint: ""
