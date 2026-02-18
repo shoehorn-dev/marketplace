@@ -1,0 +1,24 @@
+schemaVersion: 1
+kind: widget
+metadata:
+  slug: team-members
+  name: Team Members
+  version: 1.0.0
+  description: Team member overview with roles, status, and contact information
+  author:
+    name: Shoehorn
+    email: hello@shoehorn.dev
+    url: https://shoehorn.dev
+  tier: free
+  category: team
+  tags: [team, members, people, directory, roster]
+  icon: Users
+display:
+  component: native
+  size:
+    default: { w: 6, h: 4 }
+    min: { w: 3, h: 3 }
+    max: { w: 12, h: 6 }
+dataSource:
+  type: native
+  refreshInterval: 10m

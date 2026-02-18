@@ -1,0 +1,24 @@
+schemaVersion: 1
+kind: widget
+metadata:
+  slug: pull-requests
+  name: Pull Requests
+  version: 1.0.0
+  description: Open and recent pull requests across your team's repositories
+  author:
+    name: Shoehorn
+    email: hello@shoehorn.dev
+    url: https://shoehorn.dev
+  tier: free
+  category: source-control
+  tags: [pull-requests, github, gitlab, code-review, source-control]
+  icon: GitPullRequest
+display:
+  component: native
+  size:
+    default: { w: 6, h: 4 }
+    min: { w: 3, h: 2 }
+    max: { w: 12, h: 6 }
+dataSource:
+  type: native
+  refreshInterval: 2m

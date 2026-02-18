@@ -1,0 +1,24 @@
+schemaVersion: 1
+kind: widget
+metadata:
+  slug: quick-stats
+  name: Quick Stats
+  version: 1.0.0
+  description: Key team metrics at a glance - deployments, incidents, PR cycle time, and more
+  author:
+    name: Shoehorn
+    email: hello@shoehorn.dev
+    url: https://shoehorn.dev
+  tier: free
+  category: analytics
+  tags: [stats, metrics, analytics, kpi, dora, overview]
+  icon: BarChart
+display:
+  component: native
+  size:
+    default: { w: 12, h: 2 }
+    min: { w: 4, h: 1 }
+    max: { w: 12, h: 3 }
+dataSource:
+  type: native
+  refreshInterval: 5m

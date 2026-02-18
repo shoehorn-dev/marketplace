@@ -1,0 +1,28 @@
+schemaVersion: 1
+kind: widget
+metadata:
+  slug: custom-links
+  name: Custom Links
+  version: 1.0.0
+  description: Add and organise custom links and resources for your team dashboard
+  author:
+    name: Shoehorn
+    email: hello@shoehorn.dev
+    url: https://shoehorn.dev
+  tier: free
+  category: team
+  tags: [links, bookmarks, custom, resources, shortcuts]
+  icon: Link
+display:
+  component: native
+  size:
+    default: { w: 4, h: 3 }
+    min: { w: 3, h: 2 }
+    max: { w: 12, h: 6 }
+dataSource:
+  type: native
+config:
+  - key: links
+    label: Links
+    type: text
+    default: []

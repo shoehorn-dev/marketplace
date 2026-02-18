@@ -1,0 +1,24 @@
+schemaVersion: 1
+kind: widget
+metadata:
+  slug: pipelines
+  name: Pipeline Status
+  version: 1.0.0
+  description: CI/CD pipeline status and recent deployments for your team's services
+  author:
+    name: Shoehorn
+    email: hello@shoehorn.dev
+    url: https://shoehorn.dev
+  tier: free
+  category: ci-cd
+  tags: [pipelines, ci-cd, deployments, github-actions, builds]
+  icon: Rocket
+display:
+  component: native
+  size:
+    default: { w: 6, h: 4 }
+    min: { w: 4, h: 2 }
+    max: { w: 12, h: 6 }
+dataSource:
+  type: native
+  refreshInterval: 1m
